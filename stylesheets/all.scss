@@ -46,7 +46,7 @@ img{
 .wrap{
 
 position: relative;
-background-image:url("../stylesheets/images/header_dark.png");
+background-image:url(../stylesheets/images/header_dark.png);
 
 overflow:hidden;
 
@@ -109,10 +109,10 @@ text-shadow: 1px 2px 2px rgba(0,0,0,0.7);
 }
 @media(max-width: 375px){
 
- .wrap{background-position: -99999px -99999px;}
+.wrap{background-position: -99999px -99999px;}
     .wrap:before {
         content: ""; 
-        background-image: inherit; 
+        background-image:url(../stylesheets/images/header_dark_s.png); 
         position: fixed; 
         top: 0; 
         left: 0; 
@@ -124,7 +124,6 @@ text-shadow: 1px 2px 2px rgba(0,0,0,0.7);
         background-size: cover !important;
         z-index: -1;
     }
-
 
 
 
@@ -278,6 +277,10 @@ padding-top:10px;
 .white{
   background:rgba(236, 236, 236, 0.925);
 }
+.white_w{
+  color:rgba(236, 236, 236, 0.959)
+}
+
 
 
 .p{

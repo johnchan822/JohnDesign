@@ -13911,7 +13911,7 @@ body {
 
 .wrap {
   position: relative;
-  background-image: url("../stylesheets/images/header_dark.png");
+  background-image: url(../stylesheets/images/header_dark.png);
   overflow: hidden;
   background-position: bottom center;
   background-size: cover;
@@ -13964,7 +13964,7 @@ body {
   }
   .wrap:before {
     content: "";
-    background-image: inherit;
+    background-image: url(../stylesheets/images/header_dark_s.png);
     position: fixed;
     top: 0;
     left: 0;
@@ -14115,6 +14115,10 @@ body {
 
 .white {
   background: rgba(236, 236, 236, 0.925);
+}
+
+.white_w {
+  color: rgba(236, 236, 236, 0.959);
 }
 
 .p {

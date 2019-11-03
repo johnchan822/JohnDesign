@@ -13960,11 +13960,18 @@ body {
 
 @media (max-width: 375px) {
   .wrap {
-    position: relative;
-    background-image: url("../stylesheets/images/header_dark_s.png");
-    overflow: hidden;
-    background-position: bottom center;
-    background-size: cover;
+    background-position: -99999px -99999px;
+  }
+  .wrap:before {
+    content: "";
+    background-image: inherit;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-size: cover !important;
+    z-index: -1;
   }
   .header-img {
     background-image: url(../stylesheets/images/color_m.png);

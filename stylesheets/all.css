@@ -13960,6 +13960,7 @@ body {
 
 @media (max-width: 375px) {
   .warp {
+    display: none;
     width: 375px;
   }
   .wrap {

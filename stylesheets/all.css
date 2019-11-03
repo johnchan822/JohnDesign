@@ -13909,6 +13909,15 @@ body {
   transform: translateY(0);
 }
 
+.wrap {
+  position: relative;
+  background-image: url(../stylesheets/images/header_dark.png);
+  overflow: hidden;
+  background-position: bottom center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
 .fixed {
   position: fixed;
   width: 100%;
@@ -13950,17 +13959,6 @@ body {
 }
 
 @media (max-width: 375px) {
-  .wrap {
-    content: ' ';
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url(../stylesheets/images/header_dark_s.png) center 0 no-repeat;
-    background-size: cover;
-  }
   .header-img {
     background-image: url(../stylesheets/images/color_m.png);
     width: 400px;

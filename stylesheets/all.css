@@ -13959,19 +13959,19 @@ body {
 }
 
 @media (max-width: 375px) {
-  .wrap {
-    background-position: -99999px -99999px;
+  .warp {
+    width: 375px;
   }
-  .wrap:before {
-    content: "";
-    background-image: url(../stylesheets/images/header_dark_s.png);
+  .wrap {
+    content: ' ';
     position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 100%;
-    background-size: cover !important;
     z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(../stylesheets/images/header_dark_s.png) center 0 no-repeat;
+    background-size: cover;
   }
   .header-img {
     background-image: url(../stylesheets/images/color_m.png);
